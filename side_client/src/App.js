@@ -1,6 +1,5 @@
-import { render } from "@testing-library/react";
 import React, {Component} from "react";
-import Threejs from "./threeD/Threejs"; 
+import Threejs from "./components/Threejs";
 
 class App extends Component{
   render(){
