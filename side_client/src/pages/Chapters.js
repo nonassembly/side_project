@@ -5,7 +5,10 @@ class Chapters extends Component{
     render(){
         return(
             <>
-            <Header />
+            <Header active="Chapters"/>
+            <div className="Home_Hi">
+                ㅇㅅ님강의
+            </div>
             </>
         )
     }

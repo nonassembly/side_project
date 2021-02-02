@@ -3,6 +3,7 @@ import {Route, BrowserRouter} from 'react-router-dom';
 import {Home, Chapters, About, Book} from './pages';
 import * as THREE from 'three';
 import {OBJLoader} from 'three/examples/jsm/loaders/OBJLoader.js'
+import './App.css';
 
 class App extends Component{
   componentDidMount(){
@@ -42,10 +43,12 @@ class App extends Component{
       <>
         <BrowserRouter>
         <Route exact path='/' component={Home}/>
+        <Route path='/Home' component={Home}/>
         <Route path='/Chapters' component={Chapters}/>
         <Route path='/About' component={About}/>
         <Route path='/Book' component={Book}/>
         </BrowserRouter>
+        
       </>
     );
   }

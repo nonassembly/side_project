@@ -5,7 +5,10 @@ class About extends Component{
     render(){
         return(
             <>
-            <Header />
+            <Header active="About"/>
+            <div className="Home_Hi">
+                ㅇㅅ님에대해
+            </div>
             </>
         )
     }

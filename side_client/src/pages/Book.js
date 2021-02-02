@@ -5,7 +5,10 @@ class Book extends Component{
     render(){
         return(
             <>
-            <Header />
+            <Header active="Book"/>
+            <div className="Home_Hi">
+                ㅇㅅ님책
+            </div>
             </>
         )
     }

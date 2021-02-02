@@ -1,0 +1,32 @@
+.unselected{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 4%;
+    color: white;
+}
+
+.selected{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 4%;
+    color: red;
+}
+
+.ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+
+.Home_Hi{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Assistant', sans-serief;
+    display: table-cell;
+    vertical-align: middle;
+}
